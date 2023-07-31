@@ -1,0 +1,30 @@
+nav {
+  background-color: var(--background-color);
+  transition: all .3s ease;
+}
+
+.logo-wrapper {
+  padding: 1rem 1rem;
+  margin: 0 1rem;
+}
+
+.logo {
+  transition: all .3s ease;
+  color: var(--font-color);
+  font-family: 'Patrick Hand SC', cursive;
+  font-size:2rem;
+  letter-spacing:1px;
+  background:transparent;
+  box-shadow: 20px 38px 34px -26px hsla(0,0%,50%,.2);
+  outline:none;
+  /* border */
+  border: solid 7px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius:15px 255px;
+}
+.logo:hover {
+  color: var(--font-color-hover);
+  box-shadow:2px 8px 4px -6px hsla(0,0%,50%,.3);
+}

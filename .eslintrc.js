@@ -20,8 +20,9 @@ module.exports = {
   "parserOptions": {
     "ecmaVersion": 2018,
     "sourceType": "module",
-    "project": "./tsconfig.json",
-    "extraFileExtensions": ['.json']
+    "project": "tsconfig.json",
+    "extraFileExtensions": ['.json'],
+    tsconfigRootDir: __dirname,
   },
   "ignorePatterns": [".eslintrc.js", "tsconfig.json"],
   "rules": {

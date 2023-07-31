@@ -11,6 +11,7 @@ import zhCN from 'antd/locale/zh_CN';
 import frFR from 'antd/locale/fr_FR';
 import koKR from 'antd/locale/ko_KR';
 import jaJP from 'antd/locale/ja_JP';
+import esES from 'antd/locale/es_ES';
 
 const localStorage = typeof window !== 'undefined' ? window.localStorage : undefined;
 
@@ -69,6 +70,8 @@ export const languageValue = selector({
         return koKR;
       case 'japanese':
         return jaJP;
+      case 'spanish':
+        return esES;
       default:
         return enUS;
     }
